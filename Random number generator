@@ -1,0 +1,21 @@
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
+
+using namespace std;
+
+
+
+
+int main() 
+{
+  //used to make sure it's new numbers every timi
+	srand(time(0));
+
+	for (int x = 1; x < 25; x++) //modulus 25 er intervallet af tal man vil have.
+	{
+		cout << 1+(rand()%20) << endl;
+	}
+
+
+}
