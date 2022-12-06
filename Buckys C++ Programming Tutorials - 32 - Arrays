@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main() 
+{
+	int bucky[5] = { 1,2,3,4,5 };  // initier array på size 5 med 5 ailments
+
+	
+	cout << bucky[0] << endl; // printer første ailment i bucky array 
+}
+
